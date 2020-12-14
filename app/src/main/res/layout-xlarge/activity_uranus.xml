@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ur"
+    android:layout_height="match_parent"
+    tools:context=".gezegenbilgileri.uranusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Kütlesi :                               8,681E25 kg         "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                        8,87 m/sn²        "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çapı :                    51,118 km     "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :                84 yıl    "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yarı Çapı :                           25.362 km  "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Uyduları                              27 uydu     "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :                 -197 ° C   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörüngedeki Hızı :              6.80 km/s   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge  Uzaklığı :             2,870,658,186 km   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Uranüs ismini antik Yunan mitolojisinde gökyüzü tanrısı Uranusden alır.  Bu mitolojide Uranüs Satürnün babası ve Jüpiterin dedesi olarakta bilinir. "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Uranüs Güneş Sistemi‘nin en büyük üçüncü gezegeni –  gaz topudur. Aynı zamanda Güneşten uzaklık acısından yedinci ve kitle bakımından dördüncü  gezegendir. Uranüs Güneş Sisteminde ikinci mavi gezegendir. Teleskop kullanarak keşfedilen ilk gezegendir. "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="İngiliz gökbilimcisi ve bestecisi William Herschel tarafından 1781 yılında bir gezegen olarak tanımlanmıştır  "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Güneş Sisteminde saatte  1800 km hızla esen rüzgarlara sahip Satürnden sonra Uranüs ikinci en sert rüzgara sahip gezegendir. Burada rüzgarların hızı zaman zaman  saniyede 250 metre veya saatte 900 km kadar bir hıza ulaşa bilmektedir.  "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Güneş Sisteminde Satürnden sonra Uranüsün de belirgin halkaları vardır. Bu halakaların sayı 13 olduğu bilinmekte. "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text=" Şimdiye kadar Uranüs’e 1  uzay aracı ulaşmış durumda.
+1986 yılında gezegene 81,500 kilometre  kadar yakın bir mesafeden geçen Voyager 2 uzay aracı, gezegenin, halakalarının ve uydularının resimlerini elde ederek Dünyaya yollamıştır.
+ "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="  "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

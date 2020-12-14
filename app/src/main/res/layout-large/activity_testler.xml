@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/arkaplan"
+    android:layout_height="match_parent"
+    tools:context=".testler">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           app:cardBackgroundColor="#403B45"
+           app:cardCornerRadius="50dp"
+           app:cardElevation="50dp"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Temel Düzeyinde  Testler"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textColor="@color/beyaz"
+               android:textSize="25dp"
+               android:textStyle="bold"/>
+
+
+
+
+       </androidx.cardview.widget.CardView>
+
+
+       <ImageButton
+           android:id="@+id/fab1"
+           android:onClick="textClick"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@android:drawable/ic_media_play"
+           android:layout_gravity="end"
+           android:layout_marginTop="-30dp"
+           android:elevation="85dp"
+           android:background="@drawable/selector_fab1"
+           android:layout_marginRight="40dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#403B45"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="50dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Orta Düzeyinde Testler"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/beyaz"/>
+
+        </androidx.cardview.widget.CardView>
+
+       <ImageButton
+           android:id="@+id/fab2"
+           android:onClick="textClick"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@android:drawable/ic_media_play"
+           android:layout_marginTop="-30dp"
+           android:elevation="80dp"
+           android:background="@drawable/selector_fab2"
+           android:layout_gravity="end"
+           android:layout_marginRight="40dp"/>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="20dp"
+           app:cardBackgroundColor="#403B45"
+           app:cardCornerRadius="50dp"
+           app:cardElevation="50dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:text="İleri Düzey Testler"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:textColor="@color/beyaz"
+               />
+
+
+       </androidx.cardview.widget.CardView>
+       <ImageButton
+           android:id="@+id/fab3"
+           android:onClick="textClick"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@android:drawable/ic_media_play"
+           android:layout_marginTop="-30dp"
+           android:elevation="80dp"
+           android:layout_marginRight="40dp"
+           android:layout_gravity="end"
+           android:background="@drawable/selector_fab3"/>
+
+
+   </LinearLayout>
+
+
+
+</ScrollView>

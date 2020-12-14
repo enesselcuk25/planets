@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ven"
+    android:layout_height="match_parent"
+    tools:context=".gezegenbilgileri.venusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Kütlesi :                               4,867E24 kg          "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                        8,87 m/sn²          "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Kutup Çapı :                        12104 km   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çevresi :                38025 km      "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :                 222 Gün     "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Gün Uzunluğu :                   116 Gün 18 saat      "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :                 462 °C     "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörüngedeki Hızı :              35,02 km/s   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Dünyadan Uzaklığı :           41.400.000 km   "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text=" Güneş ve aydan sonra dünyadan görülen en parlak gezegen olanıdır. Antik Roma’da aşk ve güzelliğin tanrıçası olan Venüs(Afrodit) isminde gelmiştir. MÖ. 7. Yüzyılında Ammisaduga  tabletlerinde Babillerin, MÖ 1700-1400 yılları arasında gözlemledikleri söz edilmektedir.
+Kendi ekseni etrafında yavaş dönmesi 242 gün sürerken, güneşin etrafındaki döngüsü 225 güne denk gelmektedir.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text="Sovyetler 1965 yılında gezegene Venera 3 isimli uzay aracı göndermişir
+1961 ile 1972 yılları arsında gezegen gönderilen 21 uzay aracı 14 başarısız olmuşur.
+Gönderilen araçların venüsün yörüngesine girdikten hemen parçalanıyorlar araçların parçalanma nedenleri dünyanın basıncından 92 kat daha fazla olması, rüzgar hızı 725 km kadar çıkabilmesidir.
+Dünya ile aynı boyuttadır. Tüm gezegenler saat yönüne tersine döner lakin Venüs gezegeni saat yönünde dönmektedir. Dünyaya uzaklığı 41 km dir
+"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text="Gezegenin dağları, vadileri ve yüzlerce volkanı bulunmaktadır.  Bu özelliğinden dolayı en çok volkana sahip olan gezegendir. Ama çoğu’da uyku halindedir. Yıldız gibi algılandığından halk arasında Çoban Yıldızı olarak da bilinen gezegendir. Venüsün en yüksek dağı Maxwell Montes’tir bu dağ dünyadaki everst dağı eş değerdir."
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m"
+    tools:context=".gezegenbilgileri.merkurActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingTop="30dp"
+                android:text="Kütlesi :                           3,285E23 KG "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Dünyaya Oranı :              0.055"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                    3,7 m/sn²"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Kutup Çapı :                   4879 KM "
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çevresi :           15 bin 329 KM"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :            88 GÜN"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Gün Uzunluğu :              58 GÜN 15 SAAT 30 DK"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :            -170 ile 450 °C"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"  />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"  />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:text="
+
+Merkür ismini Roma döneminde almıştır. Roma mitolojisine göre ticaret ve haberleşme tanrısı olan Merkür’den alır. Merkür gezegenin kendi etrafında döndüğünü ortaya çıkaran Heraklit’dir .Güneşe en yakın gezegendir.7 yılda bir güneşin karşısına geçer.
+
+Yoğunluk bakımından dünyayla hemen hemen aynıdır. Çapı aydan  büyüktür. Dış kabuğunun kalınlığı 500 ile 600  kilometredir. Dünyanın Dış kabuğu ise 3000 kilometre.
+Güneşe çok yakın  olduğu için fazla keşif yapılmamıştır. Şimdiye kadar 2 keşif yapılmıştır bunların adları
+Mariner 10 ve Messenger isimli araçlarıdır.
+Merkür çıplak gözle bakabilen sayılı gezegenlerden bir tanesidir.
+Dünya gibi tektonik olarak aktif bir gezegendir ve çekirdeği soğudukça yüzeyinde değişiklik olur.
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

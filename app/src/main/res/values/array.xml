@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kolayTestler">
+        <item>
+            Jüpiterin yörüngesinde bulunan uydu hangisidir?-europa
+        </item>
+        <item>
+           Satürn gezegenin en büyük uydusudur. Aşağdakilerden hangisidir?-titan
+        </item>
+        <item>
+            Güneş ve aydan sonra  dünyadan görülen en parlak gezegen hangisidir?-Venüs
+        </item>
+        <item>
+            Yörünge hızı 27.78 olan gezegen hangisidir?-dünya
+        </item>
+        <item>
+            Güneş sistemimize en yakın gezegen hangisidir?-Merkür
+        </item>
+        <item>
+            Güneş sistemimize en uzak gezegen hangisidir?-neptün
+        </item>
+        <item>
+            yüksek miktarda helyum bulunan gezegen hangisidir?-satürn
+        </item>
+        <item>
+            Güneş sisteminde en büyük üçüncü gezegen hangsidir?-uranüs
+        </item>
+        <item>
+            Kızıl gezegen olarak bilinen gezegen hangisidir?-mars
+        </item>
+        <item>
+            Güneş sistemi içerisinde en büyük gezegen  hangisidir?-Jüpiter
+        </item>
+
+
+    </string-array>
+
+    <string-array name="ortatestler">
+
+        <item>
+            Gezegenlerden hangisi kendi ekseni etrafında saat yönünde hareket eder. Bu hangi gezegendir?-Venüs
+        </item>
+        <item>
+            Gezegenler içerisinde en fazla uyduya sahip olanı hangisidir?-jüpiter
+        </item>
+        <item>
+            İsmini Roma döneminde ticaret ve haberleşme tanrısından almıştır. Bu  gezegen hangisidir?-merkür
+        </item>
+        <item>
+           150’den fazla uydu ve meteor parçalarına sahip gezegen hangisidir?-satürn
+        </item>
+        <item>
+            Satürn gezegeninde 6. Büyük uydusudur?-Enceladus
+        </item>
+        <item>
+            Gezegenleri büyükten küçüğe doğru sıralayacak olursak baştan dördüncü gezegen aşağıdakilerden hangisi olur?-Neptün
+        </item>
+        <item>
+            Cüce gezegen hangisidir?-Plüton
+        </item>
+        <item>
+           İsmi Yunan mitoljisinde gökyüzü tanrısı olan gezegenimiz hangisidir?-Uranüs
+        </item>
+        <item>
+           78 azot, yüzde 21 oksijen ve yüzde  1 diğer gazlardan oluşan gezegen hangisidir-Dünya
+        </item>
+        <item>
+            Gezegenler arasında en büyük kum fırtınaların oluştuğu  ve bu fırtınalar aylarca sürdürdüğü gezegen hangisidir?-mars
+        </item>
+
+    </string-array>
+
+    <string-array name="zortestler">
+
+        <item>
+            Titan uydusu hangi gezegene aittir?-Satürn
+        </item>
+        <item>
+            Başarılı bir görev gerçekleştiren ilk uzay aracımızın adı?-Sputink1
+        </item>
+        <item>
+            kütlesi:3,285E23 kg, Dünyaya oranı: 0.055, gün uzunluğu: 58 gün 15 saat 30 dk olan gezegen hangisidir?-merkür
+        </item>
+        <item>
+            Güneşe uzaklığı 149 milyon kilometre uzaklıkta olan gezegen?-dünya
+        </item>
+        <item>
+            Kütlesi: 1,024E26 kg ve 14 uydusu bulunan  olan gezegen hangisidir?-neptün
+        </item>
+        <item>
+            Gezegenlerden hangisi Satürn’den  halkalar olduğu  gibi vardır?-Uranüs
+        </item>
+        <item>
+            5 uydusu bulunan ve yörünge süresi 248 olan gezegen hangisidir?-plüton
+        </item>
+        <item>
+            Dünyadan sonra kutub buzulların olduğu gezegen hangisidir?-mars
+        </item>
+        <item>
+            Yıldız gibi algılandığından halk arasında Çoban Yıldızı olarak da bilinen gezegen  hangisidir?-Venüs
+        </item>
+        <item>
+            Kütlesi: 1,898E27 kg ve  67 uydusu olan gezegen hangisidir?-jüpiter
+        </item>
+
+    </string-array>
+
+</resources>

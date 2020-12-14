@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".gokcisimleriActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewmerkur"
+                android:layout_width="match_parent"
+                android:layout_marginTop="1.5dp"
+                android:layout_height="70dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/merkuur"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="MERKÜR"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/merkur"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/merkurr" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewvenus"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/venuus"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="VENÜS"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                    <ImageView
+                        android:id="@+id/venus"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/venuss" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewdunya"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/dunyya"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="DÜNYA"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                    <ImageView
+                        android:id="@+id/dunya"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/dunya" />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewmars"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/marrs"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="MARS"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/mars"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/marss" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewjupiter"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/jupiteer"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="JÜPİTER"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/jupiter"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/jupiterr" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewsaturn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/saturrn"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="SATÜRN"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/saturn"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/saturnn" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewuranus"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/uranuus"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="URANÜS"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/uranus"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/uranuss" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewneptun"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="1.5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30">
+
+                    <TextView
+                        android:id="@+id/neptuun"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="NEPTÜN"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/neptun"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/neptunn" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewplatun"
+                android:layout_width="match_parent"
+                android:layout_marginTop="1.5dp"
+
+                android:layout_height="80dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#2D2C30"
+                    >
+
+                    <TextView
+                        android:id="@+id/plotuun"
+                        android:layout_width="150dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="PLÜTON"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/plotun"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-50dp"
+                        app:srcCompat="@drawable/plotunn" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

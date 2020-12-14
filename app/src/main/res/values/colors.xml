@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#1A191B</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="beyaz">#FFFFFF</color>
+    <color name="sarı">#FFEB3B</color>
+    <color name="mor">#2196F3</color>
+    <color name="pembe">#F8BBD0</color>
+</resources>

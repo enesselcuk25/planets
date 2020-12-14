@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ju"
+    android:layout_height="match_parent"
+    tools:context=".gezegenbilgileri.jupiterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Kütlesi :                               1,898E27 kg         "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                        24,79 m/sn²         "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çevresi :               439264 km      "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :                12 yıl  "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yarı Çapı :                           69.911 km "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Uyduları                              67 uydu.      "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :                 -108° C     "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörüngedeki Hızı :             13.07  km/s   "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge  Uzaklığı :             778 340 821 km  "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Gezegen adını antik Yunan tanrıları kralının adından  almaktadır.         "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Gezegende asırlardan beri devam eden şiddetli ve muazzam büyüklükte fırtınalar var. Bazıları Dünyadan iki kat büyük olan bu fırtınaların hızı saat’te 644 km kadardır. Bu fırtınalardakı yıldırımlar bile Dünyada oluşan en güçlü yıldırımlardan bin katdan daha güçlüdürler."
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Jüpiter’in meşhur Büyük Kırmızı Leke fırtınası Dünyadan üç kere büyük ve saat’te 400 km’e yakın bir hızla esen muazzam bir fırtınadır. Fırtına 350 yıldan fazla bir süredir devam etmektedir.
+Jüpiter Güneş Sisteminde en büyük gezegen olduğu gibi bu büyüklüğünü sanki uydusu  Ganymede’ni de etkilemiştir. Ganymede Güneş Sisteminde en büyük doğal uydudur.  Ganymede Güneş etrafında dönüyor olsa idi, bir gezegen adlandırılacaktı. Ganymede Merkür gezegeninden bile büyüktür
+"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Jüpiter için bu güne kadar  9 misyon yapılmıştır.
+Pioneer 10 ( 1973) , Pioneer 11 (1974) , Voyager  1 (1979) , Voyager  2 (1979), Ulysses (1992)  , Galileo (1995) ,  Cassini (2000) ve New Horizons (2007)  uzay araçları Jupiter hakkında bilgiler  toplamıştır.  Juno uzay aracının 2016 yılının  yazında, gezegene ulaşmış ve görevini başarılı bir şekilde devam ettirmektedir. Bu misyonlardan  Galileo,  Juno ve Pioneer 10 Jupiter için fırlatılmıştır.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

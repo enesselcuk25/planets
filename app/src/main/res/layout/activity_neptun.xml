@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nep"
+    android:layout_height="match_parent"
+    tools:context=".gezegenbilgileri.neptunActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Kütlesi :                               1,024E26 kg         "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                        11,15 m/sn²        "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çapı :                    49,928 km     "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :                165 yıl    "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yarı Çapı :                           24.622 km  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Uyduları                              14 uydu     "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :                -201° C "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörüngedeki Hızı :              5.43 km/s   "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge  Uzaklığı :             4,498,396,441 km   "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Gezegen adını eski Roma mitolojisinde olan aynı adlı deniz tanrısından alır. Yunan mitolojisinde bu tanrı Poseidon olarak tanınır"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Eski çağ gökbilimcilerinin Neptün’nün varlığından haberdar olmadığı düşünülüyör. Çünki Neptün Dünyadan çıplak gözle görülmez.  Bilim adamları gezegenin varlığını Urbain Le Verrier ve Johann Galle tarafından Eylül 1846 yılında keşfedilmemişten önce matematiksel hesaplamalarla kanıtlaya bilmişler"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textVie3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Neptün Güneş Sisteminde Güneşten en uzak gezegendir. Aynı zamanda kitlesine göre üçüncü ve çapının büyüklüğüne göre dördüncü gezegendir. Neptün Dünyadan 17 kat daha ağır ve gezegenden öte, dev bir gaz topudur. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Uranüsten daha küçük olmasına rağmen Neptün, ondan yaklaşık olarak 1.2 kat daha ağırdır. Bunun da onun ağır bir atmosfere sahip olmasından kaynaklandığına inanılıyor.
+Neptün’nün mavi renkte olması  atmosferinde bulunan metan gazından dolayıdır.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Bu güne kadar bir tek Voyager 2 uzay aracı görev yolu üzerindeyken Neptüne yakın mesafeden geçmişdir. Bu zaman Voyager, gezegenin bir kaç digital görselini, o cümleden Büyük Koyu Leke fırtınası’nın da resmini yakalamayı başarmıştır. Aynı zamanda  gezegen NASA/ESA Hubble Space Telescope (Hubble Teleskobu) tarafından da incelenmiştir."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

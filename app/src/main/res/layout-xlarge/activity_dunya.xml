@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/du"
+    android:layout_height="match_parent"
+    tools:context=".gezegenbilgileri.dunyaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:text="KAREKTERİSTİK ÖZELLİKLER"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Kütlesi :                               5,972E24 kg         "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yer Çekimi :                        9,807 m/sn²         "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yarı Çapı :                           6.371 km  "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Ekvator Çevresi :                40000 km      "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge Süresi :                 365 Gün    "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Uyduları                               1 (Ay)      "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yüzey Sıcaklığı :                  -88  ile  58 °C     "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörüngedeki Hızı :              27.78 km/s   "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Yörünge  Uzaklığı :             149,598,262 km   "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="GENEL BİLGİLER"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text=" Dünya atmosferi yüzde 78 azot, yüzde 21 oksijen, ve yüzde 1 değer gazlardan oluşur.
+Dünya gezegeni kutuplarda basık ekvatorda ise şişkin bir yapıya sahiptir.
+Dünya  ilk oluştuğu zaman yoğun ve sıcak bir gaz bulutuydu. Zamanla bu gaz bulutu hızlı bir şekilde dönmeye başlamıştır. Soğuyan ve sürekli dönen bu gaz bulutu zamanla şuan ki şeklini almıştır.
+
+"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text="Güneşten uzaklığı 149 milyon kilometre uzaklıkta olan gezegendir
+Ekvatorda şişkin kutuplarda basık olayına geoid denir.
+Gezegenimiz %70 su %30 karadan oluşmaktadır"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text=" Gezegenimiz İngilizcede dünya için  Earth olarak kullanılır. Öncelikle İngilizce Earth kelimesinin nereden geldiğini  gösterelim. Toprak anlamı verir. Roma mitolojisinde toprak tanrısı olan Tellus’dur. Yunan Mitolojisi'nde ise karşılığı Gaia'dır ve bazı dil ve inanışlarda Dünya'dan Gaia olarak bahsedilmektedir.
+               "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text="Dünya kelimesinin kökenin Farsçadan donya ve Arapçadaki dünya sözcüklerine dayanmaktadır. İslam dininde biri şuan yaşadığımız, diğeri de öldükten sonra yaşadığımız hayattır.
+Şuan yaşadığımız hayat daha yakındır anlamıyla Arapçadaki daha yakın anlamı “dena” fiili dilimize
+Dünya olarak geçmiştir. kelime aynı zamanda Kur’an-ı  kerimde de “dunya ” olarak çıkmaktadır.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
